@@ -46,15 +46,19 @@ body{
   background-color: #fff;
   max-width: 600px;
   margin: auto;
-  padding: 35px;
+  padding: 25px;
   border-radius: 10px;
-  box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.3);
 }
 .h4-main{
   text-align: center;
   font-size: 1.2em;
   padding: 0 0 15px 0;
   color: rgb(93, 88, 88);
+  font-weight: 700;
+}
+.span-main{
+  text-transform: capitalize;
 }
 .formulario{
   padding: 10px;
@@ -62,6 +66,8 @@ body{
 .label{
   display:block;
   padding-bottom: 10px;
+  color: rgb(93, 88, 88);
+  font-weight: bold;
 }
 .campo-texto{
   width: 450px;
@@ -70,10 +76,28 @@ body{
   border: 2px solid lightslategray;
   font-size: 1.2em;
   border-radius: 8px;
-  text-transform: capitalize;
+  padding-bottom: 2px;
 }
 .campo-texto::placeholder{
   color: lightslategrey;
   opacity: 0.5;
+}
+.btn{
+  height: 32px;
+  width: 65px;
+  border: none;
+  background-color: #1CB5E0;
+  border-radius: 10px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #1cb5e072;
+  color: lightslategrey;
+}
+.resultado{
+  padding: 15px 0 0 10px;
+  font-size: 1.4em;
+  text-transform: capitalize;
 }
 /* MAIN */

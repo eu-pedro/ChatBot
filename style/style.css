@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+  background-color: #1CB5E0;
+}
+/* HEADER */
+.container-header{
+  background-image: linear-gradient(to bottom, #000046, #1CB5E0 45%);
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: rgb(226, 213, 213);
+}
+.h1-header{
+  padding: 15px;
+  font-size: 2.4em;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.h3-header{
+  padding: 8px;
+  font-size: 1.5em;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.span-html{
+  color: #e34f26;
+}
+.span-css{
+  color: #400191;
+}
+.span-js{
+  color: #fcd116;
+}
+/* HEADER */
+
+/* MAIN */
+.container-main{
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.h4-main{
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0 0 15px 0;
+  color: rgb(93, 88, 88);
+}
+.formulario{
+  padding: 10px;
+}
+.label{
+  display:block;
+  padding-bottom: 10px;
+}
+.campo-texto{
+  width: 450px;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid lightslategray;
+  font-size: 1.2em;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.campo-texto::placeholder{
+  color: lightslategrey;
+  opacity: 0.5;
+}
+/* MAIN */

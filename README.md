@@ -6,6 +6,15 @@
 <br />
 <br />
 
+
+**Projeto funcionando** inicialmente, você pode perguntar para o Bot coisas como: "Qual seu nome?", "Quantos anos você tem?", "Você sabe meu nome?", entre outros e ele responderá conforme o padrão de perguntas.
+
+<br />
+<br />
+<img src="assets/testing.png">
+<br />
+<br />
+
 ## 👨🏻‍💻Tecnologias usadas
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
   * HTML5
